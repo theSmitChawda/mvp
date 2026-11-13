@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const BASE44_URL = "https://strange-campus-guide-go.base44.app";
+    window.location.replace(BASE44_URL);
+  </script>
+</head>
+<body>
+  <p>Redirecting... <a id="fallback" href="#">Click here if you are not redirected</a>.</p>
+  <script>
+    document.getElementById("fallback").href = BASE44_URL;
+  </script>
+</body>
+</html>
